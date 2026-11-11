@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Agent Swarm Build Demo</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#050507;color:#e8e8ee;font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+  nav{position:sticky;top:0;display:flex;align-items:center;gap:28px;padding:16px 48px;background:rgba(5,5,7,.8);backdrop-filter:blur(8px);border-bottom:1px solid #16161c;z-index:10}
+  nav .logo{font-weight:700;color:#fff}
+  nav a{color:#ff4fd8;text-decoration:none;font-size:14px}
+  nav .cta{margin-left:auto;padding:6px 14px;border-radius:999px;background:#fff;color:#000}
+  section{padding:96px 48px;max-width:1180px;margin:0 auto}
+  .eyebrow{color:#ff4fd8;font-size:13px;letter-spacing:.08em}
+  h1{font-size:64px;line-height:1.1;margin:12px 0 20px;color:#ff4fd8}
+  h2{font-size:40px;margin:8px 0 16px;color:#ff4fd8}
+  h3{font-size:20px;color:#fff;margin:12px 0 8px}
+  p{color:#a9a9b6;max-width:620px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}
+  .card{padding:24px;border-radius:16px;background:#0e0e14;border:1px solid #1d1d26}
+  .card .num{color:#ff4fd8;font-size:12px}
+  .icon{width:44px;height:44px;border-radius:12px;background:conic-gradient(from 200deg,#4fd1ff,#ff4fd8,#ffe14f,#4fd1ff)}
+  .hero-img{margin-top:48px;height:340px;border-radius:20px;background:linear-gradient(160deg,#e3a17a,#9b5a3c 60%,#3d2018);position:relative;overflow:hidden}
+  .hero-img::after{content:"";position:absolute;left:46%;bottom:22%;width:90px;height:70px;border-radius:12px;background:#ddd;box-shadow:0 30px 30px rgba(0,0,0,.4)}
+  .quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}
+  .quote{padding:24px;border-radius:16px;background:#0e0e14;border:1px solid #1d1d26}
+  .who{display:flex;gap:10px;align-items:center;margin-top:16px}
+  .avatar{width:32px;height:32px;border-radius:50%;background:#ff8a4f}
+  .btn{display:inline-block;padding:12px 24px;border-radius:999px;background:#fff;color:#000;text-decoration:none;margin-right:16px}
+  .link{color:#ff4fd8;text-decoration:none}
+  footer{padding:48px;text-align:center;color:#55556a;border-top:1px solid #16161c}
+</style>
+</head>
+<body>
+  <nav>
+    <span class="logo">Swarmline</span>
+    <a href="#">产品</a><a href="#">资源</a><a href="#">客户</a><a href="#">企业版</a><a href="#">定价</a>
+    <a class="cta" href="#">开始构建</a>
+  </nav>
+
+  <section>
+    <div class="eyebrow">工作原理</div>
+    <h1>从一个提示词到一个文件，<br />直达生产环境</h1>
+    <p>连接你的智能体，描述你想要的场景，几十个智能体会同时开工，在几分钟内把它搭出来。</p>
+    <div class="grid">
+      <div class="card"><div class="icon"></div><div class="num">01 · 提示词</div><h3>你的智能体</h3><p>Claude、ChatGPT、Cursor、Codex，或你自己构建的智能体。</p></div>
+      <div class="card"><div class="icon"></div><div class="num">02 · 连接</div><h3>MCP 接入</h3><p>读取场景、写入场景、概览视图并查看结果。</p></div>
+      <div class="card"><div class="icon"></div><div class="num">03 · 构建</div><h3>编辑器</h3><p>每项更改都会作为操作记录实时同步，团队随时可见。</p></div>
+      <div class="card"><div class="icon"></div><div class="num">04 · 发布</div><h3>无处不在</h3><p>发布到网页、移动端或嵌入任何站点。</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">使用 SWARMLINE 构建</div>
+    <h2>让创意成为可投入生产的体验</h2>
+    <p>火星车、产品展示、交互式故事，一个提示词就能开始。</p>
+    <div class="hero-img"></div>
+  </section>
+
+  <section>
+    <h2>团队为何选择 Swarmline</h2>
+    <div class="quotes">
+      <div class="quote"><p>“我们用它做出了第一个真正的 3D 落地页，整个过程只花了一个下午。”</p><div class="who"><div class="avatar"></div><span>Andrew · Oscular</span></div></div>
+      <div class="quote"><p>“几十个智能体并行工作，审阅和构建同时进行，速度快得离谱。”</p><div class="who"><div class="avatar" style="background:#4fd1ff"></div><span>Lin · Resend</span></div></div>
+      <div class="quote"><p>“偷偷努力，偷偷卷。把握时代。”</p><div class="who"><div class="avatar" style="background:#7dff6b"></div><span>Ye · Studio</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>开始构建 3D 作品</h2>
+    <p>连接你的智能体，邀请你的团队，今天就发布你的第一个 3D 场景。</p>
+    <a class="btn" href="#">开始构建</a><a class="link" href="#">连接你的智能体</a>
+  </section>
+
+  <footer>© 2026 Swarmline · 演示页面</footer>
+
+  <script src="swarm.js"></script>
+</body>
+</html>

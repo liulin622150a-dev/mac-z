@@ -13,3 +13,7 @@ skills/ai-confusion-daily/SKILL.md
 Copy `skills/ai-confusion-daily/` into your agent skills folder, or paste the recipe into a project rule.
 
 Note: publishing this does not install it into Codex or other tools automatically.
+
+## Other
+
+- `agent-swarm-cursor/`: "AI agent swarm builds the page" cursor animation, injectable into any web page.
